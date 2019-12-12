@@ -1,5 +1,7 @@
+
+
 body {
-  background-color: darkblue;
+  background-color: rgb(235, 165, 4);
   color: white;
     font-family: 'Oswald', sans-serif;
 }
@@ -55,7 +57,7 @@ table {
 
 td {
   border: 2px solid #8c6b48;
-  width: 300px;
+  width: 200px;
 }
 
 footer {

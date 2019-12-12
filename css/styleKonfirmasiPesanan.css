@@ -3,16 +3,55 @@ img {
     height: 200px;
 }
 
-h1, h3, h4, h6, p, label, span{
+body{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(252, 247, 244);
+}
+
+header{
+        text-align: center;
+        margin-top: 5px;
+        width: 450px;
+    }
+    
+    .judul{
+        object-fit: cover;
+        text-align:center;
+        padding:15px;
+        } 
+
+.seksi{
+    object-fit: cover;
+    text-align:left;
+}
+
+
+h1, h3, h6, p, label, span{
     font-family: Verdana;
 }
 
-h3{
-    color: seagreen;
-}
-h3{
+h1{text-align: center
+    width: 450px}
 
-section {
-    font-family: verdana;
+
+h3{
+    color: rgb(233, 178, 102);
+    text-align: center
+    width: 450px
 }
+
+h4{
+    font-family: Arial ;
+    text-align: center;
+    width: 450px;
 }
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    width: 30%;
+    bottom: 0px;
+    background-color: rgb(233, 178, 102);
+  }
