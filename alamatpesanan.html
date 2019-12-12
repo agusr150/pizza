@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gooo Pizza</title>
+</head>
+<body>
+	<h1>Alamat Pengiriman</h1>
+	<h5>Pastikan data yang anda isi sesuai</h5>
+	<br>
+	<form method="post" action="konfirmasi.html">
+		<table border="0" cellspacing="0" cellpadding="10">
+			<tr>
+				<td>No Invoice</td>
+				<td>:</td>
+				<td><input type="text" name="invoice" value="#123456789" size="32"></td>
+			</tr>
+			<tr>
+				<td>Nama Penerima</td>
+				<td>:</td>
+				<td><input type="text" name="penerima" size="32"></td>
+			</tr>
+			<tr>
+				<td>Alamat email</td>
+				<td>:</td>
+				<td><input type="email" name="email" size="32"></td>
+			</tr>
+			<tr>
+				<td>No Telp</td>
+				<td>:</td>
+				<td><input type="number" name="telp" size="32"></td>
+			</tr>
+			<tr>
+				<td valign="top">Alamat Pengiriman</td>
+				<td valign="top">:</td>
+				<td><textarea rows="10" cols="30" name="alamat"></textarea></td>
+			</tr>
+			<tr>
+				<td>Kota</td>
+				<td>:</td>
+				<td>
+					<select name="kota">
+						<option value="jakarta" selected>Jakarta</option>
+						<option value="bogor">Bogor</option>
+						<option value="bekasi">Bekasi</option>
+						<option value="tangerang">Tangerang</option>
+						<option value="depok">Depok</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
