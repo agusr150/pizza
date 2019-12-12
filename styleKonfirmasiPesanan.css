@@ -1,6 +1,18 @@
+
+img {
+    height: 200px;
+}
+
+h1, h3, h4, h6, p, label, span{
+    font-family: Verdana;
+}
+
 h3{
-    color:green;
+    color: seagreen;
 }
 h3{
 
+section {
+    font-family: verdana;
+}
 }
