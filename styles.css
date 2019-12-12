@@ -1,0 +1,137 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+h1{
+  color: rgb(255, 165, 4);
+}
+
+  
+
+.header h3{
+  color:rgb(235, 165, 4);
+}
+.header
+{
+    background-image:url(wood2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1100px 250px;
+    object-fit: cover;
+    text-align:center;
+    padding:15px;
+    
+    
+}
+.nav {
+    overflow: hidden;
+    background-color: rgb(233, 178, 102);
+    
+    
+  }
+  
+  /* Style the topnav links */
+  .nav a {
+
+    float: left;
+    vertical-align: middle;
+    display: block;
+    color: rgb(156, 109, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color on hover */
+  .nav a:hover {
+    background-color: rgb(233, 165, 20);
+    color: rgb(240, 102, 11);
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 14px;
+    background-color: rgb(252, 247, 244);
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2{
+      text-align: center;
+      color:rgb(240, 165, 4);
+      text-decoration: underline;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  div.gallery {
+    margin: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+    
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+    
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 165px;
+    display:block;
+    transition: .5s ease;
+  backface-visibility: hidden
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .desc {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .gallery:hover .image , .desc {
+    opacity: 0.3;
+  }
+  
+  .gallery:hover .middle {
+    opacity: 1;
+  }
+  
+  
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+
