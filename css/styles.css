@@ -16,7 +16,7 @@ h1{
 }
 .header
 {
-    background-image:url(image/wood2.jpg);
+    background-image:url("wood2.jpg");
     background-repeat: no-repeat;
     background-size: 1100px 250px;
     object-fit: cover;
