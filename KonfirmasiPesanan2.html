@@ -2,7 +2,7 @@
 <html>
   
   <head>
-    <title>Gooo Pizza | Konfirmasi Pengiriman</title>
+    <title>Forms Review</title>
     <link rel="stylesheet" type="text/css" href="styleKonfirmasiPesanan0.css">
   </head>
 
@@ -11,49 +11,43 @@
        <h1> GoPizza</h1>
        <h3>"We Deliver Pizza Till The Pole"</h3>
     </div>
-    
+
     <div class="nav">
-      <a href="home.html">Home</a></li>
-      <a href="#food">Food</a></li>
-      <a href="#drink">Drink</a></li>
-      <a href="#dessert">Dessert</a></li>
+      <a href="home.html">Home</a>
+      <a href="#food">Food</a>
+      <a href="#drink">Drink</a>
+      <a href="#dessert">Dessert</a>
     </div>
 
     <div class="judul">
-        <h2>BUAT PIZZA MU SENDIRI!</h2>
+      <h2>BUAT PIZZA MU SENDIRI!</h2>
     </div>
-    
 
     <div class="pilihan"> 
-        <header>
-        <h3>Cheeselover pizza sesuai seleramu!</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbanr60E0at4c8t-rbKH0-iGD5D3BttTTsvGFyzsl1rBXz5Gtj" alt="Go Pizza menuLogo" id="menulogo">
-        <p>Sebuah makanan khas Italia yang terbuat dari roti
-        <br>tipis dan bertabur berbagai bahan yang lezat</p>
-        </header>
-     </div>
+          <h3>Cheeselover pizza sesuai seleramu!</h3>
+          <br>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbanr60E0at4c8t-rbKH0-iGD5D3BttTTsvGFyzsl1rBXz5Gtj" alt="Go Pizza menuLogo" id="menulogo">
+          <p>Sebuah makanan khas Italia yang terbuat dari roti
+          <br>
+          tipis dan bertabur berbagai bahan yang lezat
+          </p>
+    </div>
 
-
-
-    <div class="seksi"> 
-      <section id="overlay">   
-    
+    <div class="seksi">   
       <br>
       <br>
-      
       <form action="submission.html" method="POST">
 				<h3>Tentukan pizzamu disini!</h3>
-        
-
-        <section class="patties">
+        <br>
+        <div class="patties">
           <label for="amount">Berapa Cheeselovers yang kamu mau?</label>
           <br>
           <input type="number" name="amount" id="amount">
-        </section>
+        </div>
        
         <hr>
        
-        <section class="crust-type">
+        <div class="crust-type">
             <label for="crust">Pilih "pizza crust"!</label>
             <br>
             <select name="crust" id="crust">
@@ -61,11 +55,11 @@
               <option value="Pandan">Pandan</option>
               <option value="Black">Black</option>
             </select>
-          </section>
+          </div>
        
         <hr>
         
-        <section class="toppings">
+        <div class="toppings">
           <span>Pilih "topping"!</span>
           <br>
           <input type="checkbox" name="topping" id="mushroom" value="mushroom">
@@ -75,38 +69,36 @@
           <input type="checkbox" name="topping" id="onion" value="onion">
           <label for="onion">Onion</label>
           <input type="checkbox" name="topping" id="tomato" value="tomato">
-          <label for="tomato">Tomato</label>
-            <br>
+          <label for="tomato">Tomato</label><br>
           <input type="checkbox" name="topping" id="nutella" value="nutella">
           <label for="nutella">Nutella</label>
           <input type="checkbox" name="topping" id="bambon" value="bambon">
           <label for="bambon">Bika Ambon</label>
           <input type="checkbox" name="topping" id="curry" value="curry">
           <label for="curry">Curry</label>
-        </section>
+        </div>
        
         <hr>
        
         <!--<section class="cooked">
-            <label for="doneness">Berapa level 'Cheesy' untuk pizza kamu?</label>
-            <br>
-            <span>Hanya 'Cheese'</span>
-            <input type="range" name="doneness" id="doneness" value="50" min="1" max="100">
-            <span>Cheesy!</span>
-          </section>-->
+          <label for="doneness">Berapa level 'Cheesy' untuk pizza kamu?</label>
+          <br>
+          <span>Hanya 'Cheese'</span>
+          <input type="range" name="doneness" id="doneness" value="50" min="1" max="100">
+          <span>Cheesy!</span>
+        </section>-->
 
-      
+        <div class="extra-info">
+           <label for="extra">Tambahan lainnya jika ada? Tulis di sini:</label>
+           <br>
+           <textarea id="extra" name="extra" rows="3" cols="61"></textarea>
+        </div>
+        
+        <hr>
 
-          <section class="extra-info">
-            <label for="extra">Tambahan lainnya jika ada? Tulis di sini:</label>
-            <br>
-            <textarea id="extra" name="extra" rows="3" cols="86"></textarea>
-          </section>
-          <hr>
-
-        <section class="submission">
+        <div class="submission">
           <input type="submit" value="Submit!">
-        </section>
+        </div>
         
         <br>
         <br>
@@ -114,19 +106,18 @@
 
         <h4> Refresh? klik <a href="./<!--LAMAN UTAMAN-->" 
             target="_blank" class="home-link">disini</a></h4>
-       
-            
-        </p>
-
+            <footer>
+                <h6>&copy; Copyright. All Rights Reserved.</h6> 
+              </footer>
       </form>
-      </section>
+      
     </div>
   </body>
-    <br>
-    <br>
-    <br>
+  <br>
+  <br>
+  <br>
   <footer>
     <h6>&copy; Copyright. All Rights Reserved.</h6> 
   </footer>
-  
+
 </html>
