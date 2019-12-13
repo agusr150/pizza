@@ -131,11 +131,10 @@ h1{
     text-align: center;
   }
   
-  .center {
+.center {
   margin: auto;
   width: 50%;
-}
-
+}  
 h4  {
   color: white;
   font-family: Comic Sans MS;
@@ -164,6 +163,6 @@ h5  {
 
 .tengah {
   margin: auto;
-  width: 100px;
+  width: 175px;
 }
 

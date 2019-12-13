@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gooo Pizza</title>
+	<title>Gooo Pizza | Detail Pengiriman</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
@@ -9,13 +9,13 @@
 	<h4>Alamat Pengiriman</h4>
 	<h5>Pastikan data yang anda isi sesuai</h5>
 	<br>
-	<form method="post" action="konfirmasi.html">
+	<form method="post" action="pembayaran.html">
 		<table border="0" cellspacing="0" cellpadding="10">
 			<tr>
-				<td>No Invoice</td>
+				<td>Invoice</td>
 				<td>:</td>
 				<td><div class="invoice">
-					#123456789
+					INV/20191213/XIX/XII/123
 					</div>
 				</td>
 			</tr>
@@ -59,22 +59,17 @@
 					<input type="radio" name="delivery" value="cod"> Cash On Delivery (COD)<br>
 					<input type="radio" name="delivery" value="cc"> Credit Card
 				</td>
-			<tr>
-				<td>
-					<div class="tengah">
-					<input type="reset" value="Reset" class="button">
-					</div>
-				</td>
-				<td></td>
-				<td>
-					<div class="tengah">
-					<input type="submit" value="Submit" class="button">
-					</div>
-				</td>
-			</tr>
 			</tr>
 		</table>
-	</form>
 	</div>
+	<hr width="50%">
+	<div class="tengah">
+		<input type="reset" value="Hapus" class="button">
+		<button type="button"><a href="pesan.html">Kembali<a/></button>
+		<input type="submit" value="Kirim" class="button" onclick="alert('Sudah Yakin?')">
+	</div>
+	</form>
+	<br>
+	<br>
 </body>
 </html>
